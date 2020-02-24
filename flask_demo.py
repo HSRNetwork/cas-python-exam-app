@@ -5,7 +5,7 @@ from napalm.base.exceptions import ConnectionException
 from requests.exceptions import ConnectionError
 from requests.exceptions import HTTPError
 
-from helper import read_devices_yaml, napalm_get_facts, rest_native_interface, convert_interface_data
+from helper import read_yaml, napalm_get_facts, rest_native_interface, convert_interface_data
 
 app = Flask(__name__, static_url_path='/static')
 
